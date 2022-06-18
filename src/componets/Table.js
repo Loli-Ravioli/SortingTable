@@ -19,7 +19,14 @@ export default function Table() {
   return (
     <div>
       <table className="table">
-        <TableHeader />
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Name</th>
+            <th>Count</th>
+            <th>Metrs</th>
+          </tr>
+        </thead>
         {DataFromServer.map((el) => (
           <tr>
             <td>{el.Date}</td>
