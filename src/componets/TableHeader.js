@@ -1,12 +1,14 @@
-const TableHeader = (
-  <div>
-    <thead>
-      <tr>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
-      </tr>
-    </thead>
-  </div>
-);
+export default function TableHeader() {
+  return (
+    <div>
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Name</th>
+          <th>Count</th>
+          <th>Metrs</th>
+        </tr>
+      </thead>
+    </div>
+  );
+}
