@@ -1,5 +1,3 @@
-import TableHeader from "./TableHeader";
-
 const DataFromServer = [
   {
     Date: "20.04.1889",
